@@ -1,0 +1,10 @@
+spring:
+  profiles:
+    active: dev
+  jpa:
+    hibernate:
+      ddl-auto: update # Auto create table when the table does not exist
+  datasource:
+    url: jdbc:mysql://localhost:3306/mySchema?serverTimezone=UTC
+    username: root
+    password: secret
